@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    
 }
 h1{
     font-size:40px;
@@ -25,4 +26,17 @@ section{
     color:white;
     font-weight: 700;
     border-radius: 5px;
+}
+.Bold{
+    padding-left: 35%;
+}
+.flexible-container{
+    display:flex;
+}
+.item{
+    width:35%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px 20px gray;bottom: 
+    
 }
