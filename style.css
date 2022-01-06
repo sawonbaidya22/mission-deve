@@ -14,7 +14,20 @@ h1{
 }
 section{
     display: flex;
-    margin-top: 150px;
+    margin-top: 50px;
+}
+.heading{
+    border-left: red 6px solid;
+    padding-left: 5px;
+}
+h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para{
+    font-size: 25px;
+    font-weight: 400;
 }
 .half-width{
     width:50%;
@@ -36,18 +49,52 @@ section{
 }
 .flexible-container{
     display:flex;
+    width: 100%;
+
 }
 .item{
-    width:35%;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: 10px 10px 20px gray;bottom: 
+    width:33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 20px gray;bottom;
+    padding: 30px;
+    border-radius: 30px;
     
 }
+#mission{
+    background-color: rgb(233, 252, 250);
+}
+#vision{
+    background-color: rgb(247, 228, 231);
+}
+#goal{
+    background-color: papayawhip;
+}
+
+.deve{
+    display: flex;
+}
+
 footer p{
     text-align: center;
 }
 .work{
     padding-left:45%;
 }
+.build{
+    padding-left:25%;
+    padding-top:5%;
+}
  
+.images{
+    width:200px;
+    height:200px;
+}
+.bottom{
+    background-color: black;
+    padding: 50px;
+    width: 100%;
+}
+.white-color{
+    color: white;
+}
